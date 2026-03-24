@@ -1,40 +1,35 @@
-# VERSPA Landing Page v3 — World-Class Redesign
+# VERSPA Landing Page v4
 
-Production-ready. Single HTML file. No build step needed.
+Production-ready. Single HTML file. No build step.
 
-## Design Direction — Inspired by Zynta, SeedLegals, Republic.com
+## Fonts
+- **Libre Baskerville** — elegant, authoritative serif headlines. Used by major financial publications. Weight, gravitas, class.
+- **Plus Jakarta Sans** — modern, warm, humanist sans. Body copy and UI labels.
+- **Space Mono** — monospace for data values and code accents.
 
-**Fonts:** Playfair Display (editorial serif headlines, FT/Guardian feel) + Figtree (warm modern sans) + DM Mono (data/code accents)
-
-**Palette:** Pure white canvas · near-black `#0D0D0D` · warm cream `#FAF9F6` · VERSPA teal `#0F6E56` as sole accent
-
-**What makes this world-class:**
-- Hero has a real CSS-rendered product dashboard mockup (like Republic/SeedLegals show actual UI)
-- Floating stat cards overlay the dashboard (Zynta-style depth)
-- Trust strip with partner/ecosystem names scrolling (Zynta pattern)
-- Playfair Display headlines feel like a financial institution, not a startup
-- Stats band (4 large numbers, dark background) for authority
-- Audience cards with hover microinteractions and icon system
-- Diaspora section has a dark card mockup with live country flows
-- Dual-tab waitlist form (Investor / Project Owner) with success state
-- Full responsive — mobile nav collapses cleanly
-- No particle effects, no gradients, no AI gimmicks
+## What changed from v3
+- Completely new font stack — far more distinctive and authoritative
+- Zero lists anywhere on the page
+- Added a second full dashboard section (VERSPA Intelligence) with AI scoring, grant radar and live analysis UI
+- Hero dashboard now has 4 live project rows + activity feed + floating stat cards
+- Diaspora section has a rich dark card with country flow rows and a floating card
+- Stats band expanded with richer copy
+- Perks section in waitlist replaced list items with 2x2 card grid
+- Footer navigation rendered as block links, not list items
+- Richer hover states and micro-interactions throughout
 
 ## Sections
-1. Nav — sticky, transparent → solid on scroll
-2. Hero — split layout: editorial copy left + product dashboard mockup right
-3. Trust strip — scrolling partner/ecosystem marquee
-4. Problem — two-panel with top accent border
-5. Platform — numbered feature rows (01–06), hover to highlight
-6. Stats band — 4 authority numbers on dark background
-7. Audience — 6 cards with icons, tags and hover lift
-8. Diaspora — split: editorial left + dark card visual right with float
-9. Why London — 6 cards with number accent, hover teal
-10. Waitlist — dark/white split panel with form + perks list
-11. Footer — 4-column + FCA disclaimer
+1. Nav — transparent to solid on scroll
+2. Hero — editorial left + full product dashboard right + floating cards + ecosystem ticker
+3. What We Solve — two panel cards with top accent border and background number
+4. Platform Pillars — numbered rows (01–06) with full row hover
+5. Impact Numbers — dark band, 4 authority statistics
+6. Who We Serve — 6 icon cards with hover underline reveal
+7. Diaspora Capital Rails — dark card UI with country flows + stat grid
+8. VERSPA Intelligence — dark section with AI scoring dashboard + grant radar
+9. Why London — 6 numbered cards
+10. Waitlist — split dark/white with 2x2 perks cards
+11. Footer — block links, full FCA disclaimer
 
 ## Deploy
-Drop `index.html` onto:
-- [Netlify Drop](https://app.netlify.com/drop)
-- [Vercel](https://vercel.com)
-- Point verspa.co.uk DNS to any static host
+Drag to [Netlify Drop](https://app.netlify.com/drop) — live in 30 seconds.
