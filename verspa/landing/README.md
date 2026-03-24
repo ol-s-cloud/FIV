@@ -1,35 +1,52 @@
-# VERSPA Landing Page v4
+# VERSPA Landing Page v5 — Full Production Release
 
-Production-ready. Single HTML file. No build step.
+Production-ready. Single HTML file. No build step. 79KB.
 
-## Fonts
-- **Libre Baskerville** — elegant, authoritative serif headlines. Used by major financial publications. Weight, gravitas, class.
-- **Plus Jakarta Sans** — modern, warm, humanist sans. Body copy and UI labels.
-- **Space Mono** — monospace for data values and code accents.
+## What's new in v5
 
-## What changed from v3
-- Completely new font stack — far more distinctive and authoritative
-- Zero lists anywhere on the page
-- Added a second full dashboard section (VERSPA Intelligence) with AI scoring, grant radar and live analysis UI
-- Hero dashboard now has 4 live project rows + activity feed + floating stat cards
-- Diaspora section has a rich dark card with country flow rows and a floating card
-- Stats band expanded with richer copy
-- Perks section in waitlist replaced list items with 2x2 card grid
-- Footer navigation rendered as block links, not list items
-- Richer hover states and micro-interactions throughout
+### New sections added
+- **How It Works** — 3-step process (Register & verify → Discover & match → Invest & close) with icons, descriptions and a speed stats row below (48h onboarding, 12wk Launchpad, £10 minimum)
+- **Social Proof / Early Traction** — 3 testimonial cards from Cambridge Judge, Surrey Business School and Smart Metering PLC, plus a partner logo strip (Envestors, Innovate UK, UKRI, AfDB, IFC, FCA, ECSP)
+- **FAQ** — 7 fully expanded/collapsible questions covering FCA status, minimum investment, returns, diaspora mechanics, developer journey, regions and launch timeline. Accordion with smooth max-height animation.
+- **Cookie / GDPR Banner** — bottom-left fixed panel with Accept All / Essential Only, localStorage persistence, UK GDPR compliant copy
 
-## Sections
-1. Nav — transparent to solid on scroll
-2. Hero — editorial left + full product dashboard right + floating cards + ecosystem ticker
-3. What We Solve — two panel cards with top accent border and background number
-4. Platform Pillars — numbered rows (01–06) with full row hover
-5. Impact Numbers — dark band, 4 authority statistics
-6. Who We Serve — 6 icon cards with hover underline reveal
-7. Diaspora Capital Rails — dark card UI with country flows + stat grid
-8. VERSPA Intelligence — dark section with AI scoring dashboard + grant radar
-9. Why London — 6 numbered cards
-10. Waitlist — split dark/white with 2x2 perks cards
-11. Footer — block links, full FCA disclaimer
+### Platform pillars — roadmap states
+Each pillar now has a clear status badge:
+- Pillar 3 (Grant Advisory) → **Live — Now** (green)
+- Pillar 2 (Deal Infrastructure) → **Live — Advisory** (green)
+- Pillar 1 (Capital Marketplace) → **Beta — 2026** (indigo)
+- Pillar 4 (Intelligence) → **Beta — Q2 2026** (indigo)
+- Pillar 5 (VERSPA Vault) → **Coming — 2027** (neutral)
+- Pillar 6 (B2B API) → **Coming — Year 3** (neutral)
+
+### Nav updated
+How It Works and FAQ added to nav. Hero CTA 2 changed from "Explore Platform" to "How It Works".
+
+### Footer updated
+How It Works, FAQ, Contact added to Company column.
+
+### FCA disclaimer
+Expanded to include UK GDPR and data processing notice.
+
+## Full section order
+1. Cookie/GDPR banner (fixed bottom-left)
+2. Nav — transparent to solid on scroll
+3. Hero — editorial copy + dashboard + floating cards + ecosystem ticker
+4. What We Solve — two problem cards
+5. **How It Works** — 3-step process + speed stats [NEW]
+6. Platform Pillars — 6 rows with roadmap status badges
+7. Impact Numbers — dark band
+8. Who We Serve — 6 cards
+9. **Social Proof** — testimonials + partner logos [NEW]
+10. Diaspora Capital Rails — dark card + stat grid
+11. VERSPA Intelligence — dark dashboard section
+12. Why London — 6 cards
+13. **FAQ** — 7 questions, accordion [NEW]
+14. Waitlist — split dark/white form
+15. Footer — 4-column + expanded FCA/GDPR disclaimer
+
+## Template status
+This is now the canonical VERSPA design system. All inner pages (for-investors, for-developers, diaspora, about, launchpad) should inherit the same CSS variables, fonts, nav and footer.
 
 ## Deploy
-Drag to [Netlify Drop](https://app.netlify.com/drop) — live in 30 seconds.
+Drag `index.html` to [app.netlify.com/drop](https://app.netlify.com/drop) — live in 30 seconds.
